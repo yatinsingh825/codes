@@ -740,7 +740,6 @@ class VoiceAssistant:
             time.sleep(0.3)
     
     def exit_assistant(self, command):
-        """Exit the voice assistant"""
         self.speak("Goodbye! Have a great day!")
         self.running = False
     
